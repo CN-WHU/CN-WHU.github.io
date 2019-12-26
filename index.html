@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>exercise on 2019/12/14</title>
     <style type="text/css">
         h1{
             text-align: center;
@@ -11,8 +11,185 @@
     </style>
 </head>
 <body>
-    <h1>Hello Github</h1> 
-<!--版权声明：本文为CSDN博主「Marcus灬Li」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/u012168038/article/details/77715439-->  
-</body>
+    <h1>Hello Friends</h1> 
+    <h3 align="center">Zou's review time</h3><br>
+        
+    <!--<br>代表换行，而<hr>代表分割线（可以选择颜色）-->
+
+    <p>Don't be panic,and believe nobody can beat you down.</p>
+    
+    <hr color="black">
+
+    <p><!--下面的是<P>的相关用法-->
+        <h5 align="center">段落p标记对齐方式</h5>
+        <hr color="black">
+        <p align="left">网页的外观是否美观，很大程度上取决于其排版。</p>
+        <p align="center">网页的外观是否美观，很大程度上取决于其排版。</p>
+        <p align="right">网页的外观是否美观，很大程度上取决于其排版。</p>
+    </p>
+    <hr color="gray">
+    
+    <p><!--下面是几种文本标记方式-->
+    <b>软件工程专业！</b>定义粗体<br>
+    <i>软件工程专业！</i>定义斜体<br>
+    <u>软件工程专业！</u>定义下划线<br>
+    <del>软件工程专业！ </del>定义删除线<br>
+    <sup>软件工程专业！</sup>定义上标<br>
+    <sub>软件工程专业！</sub>定义下标<br>
+    <strong>软件工程专业！</strong>定义着重文字，与< b></ b>效果相同<br>
+    <em>软件工程专业！</em>定义加重语气，与< i></ i>效果相同<br>
+    <small>软件工程专业！</small>变小字号<br>
+    <big>软件工程专业！</big>变大字号<br>
+    </p>
+
+    <hr color="maroon">
+    
+    <p><!--下面是常用的引用和术语标记(暂时没弄明白）-->
+    <abbr>etc.</abbr>定义缩写<br>
+    <address>湖北武汉</address>定义地址<br>
+    <blockquote>长的引用</blockquote>定义长的引用<br>
+    <cite>引用、引证</cite>定义引用、引证<br>
+    <q>引用短语</q>定义短的引用语，IE看不到引号，其余可以<br>
+    <dfn>定义项目</dfn>定义一个定义项目<br>
+    </p>
+
+    <hr color="blue">
+    
+    <P><!--下面是html对颜色的控制-->
+    <font color="rgb(00,00,00)">Black</font>,
+    <font color="rgb(100%,0%,0%)">Red</font>,
+    <font color="#000000">Black</font>,
+    <font color="#FF0000">Red</font>,
+    <font color="black">Black</font>,
+    <font color="red">Red</font>,<br>
+    <font color="#808000">Olive</font>,
+    <font color="#808080">Gray</font>,
+    <font color="#00FF00">Lime</font>,
+    <font color="#000080">Navy</font>.
+    </p>
+
+    <p>
+    <blockquote>需要缩进的内容</blockquote><br>
+    上面一行代表段落缩进后的结果（自动添加换行，增加外边距）<br>
+    下面是水平分割线标记<br>
+    < hr size="整数+px" 
+    color="rgb函数/十六进制数/颜色英文名称"
+    width="像素px/%" align="left/center/right"><br>
+    下面是插入特殊字符
+    </p>
+
+    <hr color="green" size="50%" width="50%" align="center">
+
+    <!--下面是预格式化标记<pre>-->
+    下面是加入预格式和不加的区别<br>
+    <p>  春 晓
+         孟浩然
+        春眠不觉晓，
+        处处闻啼鸟。
+        夜来风雨声，
+        花落知多少。</p>
+    <pre>
+         春 晓
+         孟浩然
+        春眠不觉晓，
+        处处闻啼鸟。
+        夜来风雨声，
+        花落知多少。
+        </pre>
+    <hr><hr>
+    <!--下面是超链接-->
+    <h2>内部链接：</h2>
+    <p><a href="Visual Studio Code.lnk">内部通知</a>是一个指向本网站中的一个页面的链接。</p>
+    <h2>外部链接：</h2>
+    <p><a href="http://www.163.com/">网易</a>是一个指向万维网上的页面的链接。</p>
+
+    <p><!--下面是几种列表方式
+        <ol type=“1| A | a | I | i " start=“2"> 
+        <li type=""  value="n">项目名称</li> 
+        <li type=""  value="n">项目名称</li> 
+        <li type=""  value="n">项目名称</li> 
+        …
+        </ol> 
+        <ul type=“disc | circle | square"> 
+        <li type="">项目名称</li> 
+        <li type="">项目名称</li> 
+        <li type="">项目名称</li> 
+        …
+        </ul> 
+        -->
+        <P>有序列表</P>
+        <ol> <li>for ordered (or numbered) lists</li>
+        <li>for ordered (or numbered) lists</li>
+        <li>for ordered (or numbered) lists</li>
+        </ol>
+        <ol type="A" ><li type="1" value="10">for ordered (or numbered) lists</li>
+            <li>for ordered (or numbered) lists</li></ol>
+        <p>无序列表</p>
+        <ul><li>for unordered lists</li>
+        <li>for unordered lists</li>
+        <li>for unordered lists</li>  
+        </ul>
+        <p>嵌套列表</p>
+        <ol><li><h5>我喜欢的电影</h5></li>
+                <ul><li>《这个杀手不太冷》</li>
+                    <li>《星际迷航》</li>
+                    <li>《美丽世界》</li>
+                </ul>
+            <li><h5>我喜欢的歌</h5></li>
+                <ul>
+                    <li>《500miles》</li>
+                    <li>《star sky》</li>
+                    <li>《董小姐》</li>
+                </ul>
+        </ol>
+        <p>定义列表</p>
+        <dl>
+            <dt>联系人:</dt>
+                <dd>张有为之</dd>
+                <dd>电话：027-11011011</dd>
+                <dd>E-mail：xyz@sina.com</dd>
+            <dt>联系地址:</dt>
+                <dd>武汉市武汉大学计算机学院2018级1班</dd>
+            <dt>邮政编码:</dt>
+                <dd>430070</dd>
+        </dl>
+            
+    </p>
+    <p><!--下面是表格
+         <TR></TR>  stands for table row.
+         <TH></TH>  stands for table header.
+         <TD></TD>  stands for table data.
+        -->
+        <table border="1" align="left">
+            <caption>我的爱好</caption>
+            <tr><th>我喜欢的电影</th><th>我喜欢的歌</th></tr>
+            <tr><td>《这个杀手不太冷》</td><td>《500miles》</td></tr>
+            <tr><td>《星际迷航》</td><td>《star sky》</td></tr>
+            <tr><td>《美丽世界》</td><td>《董小姐》</td></tr>
+        </table>
+    </p>
+    <!--插入图片
+        <img src=“url” width=“” height=“” hspace=“” vspace=“”align=“” border=“” alt=“”>
+        属性说明：
+        src(source): 图像的 URL路径(相对路径、绝对路径)。
+        alt ：添加图片的替代文字
+        width/height：设置图片的宽度和高度(px,%)
+        border：设置图片边框(px)
+        align ：设置图片对齐方式（水平/垂直两个方向）
+        hspase/vspase ：设置图片的间距设置(单位不加px)
+    -->
+
+    <!--创建图片链接
+         基本语法
+            <a href=“http://www.163.com”><img src=“url” width=“”height=“”hspace=“”vspace=“”align=“”border=“”alt=“”></a>
+         语法说明
+        alt ：添加图片的提示文字；
+        width/height：设置图片的宽度和高度(px,%)
+        border：设置图片边框(px)
+        align ：设置图片对齐方式（水平/垂直两个方向）
+        hspase/vspase ：设置图片的间距设置(px) 
+    -->
+
+
+
 </html>
